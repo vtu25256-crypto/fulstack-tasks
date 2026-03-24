@@ -4,7 +4,7 @@ This repository contains multiple fullstack development tasks.
 
 ## Tasks Overview
 
-### [Task 0: Automated Database Logging](task0_audit_logging/)
+### [Task 6: Automated Database Logging](task6_audit_logging/)
 - **Features**: Triggers for INSERT/UPDATE logging, Daily activity report view.
 - **Tech**: SQL, PHP, HTML/CSS.
 
