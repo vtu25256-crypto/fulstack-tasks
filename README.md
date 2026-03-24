@@ -16,6 +16,10 @@ This repository contains multiple fullstack development tasks.
 - **Features**: Sorting by name/date, Filtering by department, Department-wise analytics.
 - **Tech**: HTML5, CSS3, PHP, AJAX.
 
+### [Task 3: Login System with Validation](task3_login_system/)
+- **Features**: JavaScript input validation, Database credential checking, Dynamic error messages.
+- **Tech**: HTML5, CSS3, PHP, MySQL, JSON.
+
 ---
 ## How to Run Locally
 1. Clone this repository into your XAMPP `htdocs` folder.
