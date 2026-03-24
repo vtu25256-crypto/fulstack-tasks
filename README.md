@@ -36,6 +36,10 @@ This repository contains multiple fullstack development tasks.
 - **Features**: Inversion of Control (IoC), Dependency Injection (@Autowired), BeanFactory management.
 - **Tech**: Java, Spring Framework, Maven (`pom.xml`).
 
+### [Task 9: Spring MVC Application](task9_spring_mvc/)
+- **Features**: Annotation-based MVC flow, Zero-XML configuration, JSP view resolution.
+- **Tech**: Spring Web MVC, Jakarta Servlet API, JSTL.
+
 ---
 ## How to Run Locally
 1. Clone this repository: `git clone https://github.com/vtu25256-crypto/fulstackdevelopment-E1slot-25256.git`
