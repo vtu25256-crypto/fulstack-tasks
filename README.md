@@ -20,6 +20,10 @@ This repository contains multiple fullstack development tasks.
 - **Features**: JavaScript input validation, Database credential checking, Dynamic error messages.
 - **Tech**: HTML5, CSS3, PHP, MySQL, JSON.
 
+### [Task 4: Order Management using Joins](task4_order_management/)
+- **Features**: Customer order history (JOINs), Highest value order and Most active customer (Subqueries).
+- **Tech**: SQL (JOINs, Subqueries), PHP, CSS Layout.
+
 ---
 ## How to Run Locally
 1. Clone this repository into your XAMPP `htdocs` folder.
