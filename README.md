@@ -1,4 +1,4 @@
-# Fullstack Tasks Repository
+# FullStack-E1slot-25256
 
 This repository contains multiple fullstack development tasks.
 
@@ -32,9 +32,12 @@ This repository contains multiple fullstack development tasks.
 - **Features**: Keypress validation, Mouse hover highlights, Double-click submit confirmation.
 - **Tech**: HTML5, CSS3, JavaScript (DOM Events).
 
+### [Task 8: Employee Management (Spring Core)](task8_spring_employee/)
+- **Features**: Inversion of Control (IoC), Dependency Injection (@Autowired), BeanFactory management.
+- **Tech**: Java, Spring Framework, Maven (`pom.xml`).
+
 ---
 ## How to Run Locally
-1. Clone this repository into your XAMPP `htdocs` folder.
-2. Start Apache and MySQL from the XAMPP Control Panel.
-3. Import the SQL files from each task folder into your MySQL database.
-4. Access each task via `http://localhost/fulstack-tasks/TASK_FOLDER_NAME`.
+1. Clone this repository: `git clone https://github.com/vtu25256-crypto/FullStack-E1slot-25256.git`
+2. For PHP tasks: Run via XAMPP `htdocs`.
+3. For Task 8: Run using Maven (`mvn compile exec:java`).
