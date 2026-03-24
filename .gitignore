@@ -1,0 +1,12 @@
+# OS/IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Java
+target/
+*.class
+
+# PHP/Web
+node_modules/
+.env
