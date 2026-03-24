@@ -1,9 +1,11 @@
-# Git Ignore for PHP/Web Project
-.vscode/
-.antigravity/
-.gemini/
-*.log
+# Dependencies
 node_modules/
+vendor/
+
+# OS files
 .DS_Store
 Thumbs.db
-desktop.ini
+
+# Database config (if any)
+config.php
+.env

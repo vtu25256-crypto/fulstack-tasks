@@ -1,0 +1,7 @@
+{
+    "liveServer.settings.port": 5500,
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "files.associations": {
+        "*.php": "php"
+    }
+}
