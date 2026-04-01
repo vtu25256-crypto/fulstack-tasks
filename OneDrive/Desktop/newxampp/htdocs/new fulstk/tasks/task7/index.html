@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Feedback | Task 7</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form-container">
+        <header>
+            <h1>User Feedback</h1>
+            <p>Your experience matters. Let us know how we're doing.</p>
+        </header>
+
+        <form id="feedbackForm">
+            <!-- Name Field -->
+            <div class="input-wrapper" id="nameWrapper">
+                <label for="name">Full Name</label>
+                <div class="input-inner">
+                    <input type="text" id="name" placeholder="John Doe">
+                    <span class="status-icon"></span>
+                </div>
+                <small class="hint">Minimum 3 characters</small>
+            </div>
+
+            <!-- Email Field -->
+            <div class="input-wrapper" id="emailWrapper">
+                <label for="email">Email Address</label>
+                <div class="input-inner">
+                    <input type="email" id="email" placeholder="john@example.com">
+                    <span class="status-icon"></span>
+                </div>
+                <small class="hint">Must be a valid email</small>
+            </div>
+
+            <!-- Message Field -->
+            <div class="input-wrapper" id="messageWrapper">
+                <label for="message">Your Message</label>
+                <div class="input-inner">
+                    <textarea id="message" rows="4" placeholder="What's on your mind?"></textarea>
+                </div>
+                <small class="hint">Min 10 characters</small>
+            </div>
+
+            <div class="submit-area">
+                <p class="action-hint">Double-click the button below to submit your feedback.</p>
+                <button type="button" id="submitBtn" class="submit-btn" disabled>
+                    Ready for Submit
+                </button>
+            </div>
+        </form>
+
+        <div id="confirmationOverlay" class="overlay">
+            <div class="modal">
+                <div class="icon">✅</div>
+                <h2>Feedback Received!</h2>
+                <p>Thank you for your valuable response. We will review it shortly.</p>
+                <button id="closeModal">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
